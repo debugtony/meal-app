@@ -20,6 +20,7 @@ function Main() {
   const itemslist = items.map(({ strMeal, strMealThumb, idMeal }) => {
     return (
       <section className="card">
+        
         <img src={strMealThumb} />
         <section className="content">
           <p>{strMeal}</p>
